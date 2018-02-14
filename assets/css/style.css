@@ -21,10 +21,22 @@ aside {
 
 .navB {
   float: right;
+  margin-left: 10px;
+  color: gray;
+  text-decoration: none;
 }
 
 nav {
   float: right;
+  line-height: 45px;
+}
+
+article {
+  float: left;
+  width: 650px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-right: 0px;
 }
 
 .topBar {
@@ -35,14 +47,6 @@ nav {
 .container {
   width: 960px;
   margin: 20px auto;
-}
-
-article {
-  float: left;
-  width: 650px;
-  background-color: #ffffff;
-  padding: 20px;
-  margin-right: 0px;
 }
 
 h1, h3{
@@ -60,7 +64,7 @@ aside {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   width: 100%;
   text-align: center;
   bottom: 0;
@@ -82,7 +86,9 @@ li {
   height: 80px;
   text-align: center;
   line-height: 80px;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: .5px;
   margin: 0;
   color: white;
 }
