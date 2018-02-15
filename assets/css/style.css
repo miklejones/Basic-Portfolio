@@ -138,7 +138,6 @@ hr {
 .project-grid {
   display: grid;
   grid-template-columns: auto auto;
-  background-color: 
 }
 
 .project-item {
