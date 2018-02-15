@@ -135,6 +135,32 @@ hr {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+.project-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: 
+}
+
+.project-item {
+  text-align: center;
+}
+
+.project-pic {
+  width: 250px;
+  border: 1px solid black;
+  z-index: 1;
+}
+ .project-title {
+   width: 250px;
+   height:70px;
+   margin-left: 27.5px;
+   background-color: #4aaaa5;
+   color: #ffffff;
+   position: absolute;
+   top: 300px;
+   line-height: 70px;
+ }
+
 .connectIcons {
   height: 60px;
   margin-right: 3px;
