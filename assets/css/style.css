@@ -1,9 +1,11 @@
+/*MAIN ELEMENTS*/
 body {
   margin: 0;
   padding: 0px;
   background-image: url("https://3.bp.blogspot.com/-3JzsqtVmmGo/UxSryP2dN8I/AAAAAAAAF7c/VL9Fb5_qFhw/s1600/seamless-light-gray-material-background.jpg");
   background-repeat: repeat;
   font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
 }
 
 header {
@@ -11,25 +13,6 @@ header {
   background-color: white;
   height: 80px;
   border-bottom: 3px solid #cccccc; 
-}
-
-aside {
-  float: right;
-  min-height: 170px;
-  background-color: white;
-  padding: 10px 20px;
-  width: 230px;
-}
-
-a {
-  text-decoration: none;
-}
-
-.navB {
-  float: right;
-  margin-left: 40px;
-  color: gray;
-  text-decoration: none;
 }
 
 nav {
@@ -46,18 +29,12 @@ article {
   margin-bottom: 100px;
 }
 
-.topBar {
-  width: 960px;
-  margin: auto;
-}
-
-.container {
-  width: 960px;
-  margin: 20px auto;
-}
-
-h1, h3{
-  font-family: 'Georgia', Times, 'Times New Roman', serif;
+aside {
+  float: right;
+  min-height: 170px;
+  background-color: white;
+  padding: 10px 20px;
+  width: 230px;
 }
 
 footer {
@@ -71,9 +48,43 @@ footer {
   color: #777777;
   border-top: 5px solid #4aaaa5;
 }
-  
+
+a {
+  text-decoration: none;
+}
+
+h1, h3{
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
 li {
   display: inline;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.navB {
+  float: right;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #777777;
+}
+
+.topBar {
+  width: 960px;
+  margin: auto;
+}
+
+.container {
+  width: 960px;
+  margin: 20px auto;
 }
  
 .name {
@@ -89,7 +100,6 @@ li {
   margin: 0;
   color: white;
 }
-
 
 .profPic {
   height: 200px;
@@ -116,13 +126,4 @@ li {
 
 .teal {
   color: #4aaaa5;
-}
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
 }
