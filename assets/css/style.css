@@ -1,3 +1,4 @@
+
 /*MAIN ELEMENTS*/
 body {
   margin: 0;
@@ -29,6 +30,16 @@ article {
   margin-bottom: 100px;
 }
 
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid  #dddddd;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
 aside {
   float: right;
   min-height: 170px;
@@ -49,6 +60,7 @@ footer {
   border-top: 5px solid #4aaaa5;
 }
 
+/*MISC TAGS*/
 a {
   text-decoration: none;
 }
@@ -70,23 +82,12 @@ hr {
   padding: 0;
 }
 
-.navB {
-  float: right;
-  margin-left: 20px;
-  text-decoration: none;
-  color: #777777;
-}
-
+/*MAIN ELEMENTS BY CLASS(IN ORDER OF APPEARANCE)*/
 .topBar {
   width: 960px;
   margin: auto;
 }
 
-.container {
-  width: 960px;
-  margin: 20px auto;
-}
- 
 .name {
   float: left;
   width: 200px;
@@ -101,6 +102,18 @@ hr {
   color: white;
 }
 
+.navB {
+  float: right;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #777777;
+}
+
+.container {
+  width: 960px;
+  margin: 20px auto;
+}
+ 
 .profPic {
   height: 200px;
   width: 200px;
@@ -117,7 +130,6 @@ hr {
 .connectIcons {
   height: 60px;
   margin-right: 3px;
-
 }
 
 .clear {
