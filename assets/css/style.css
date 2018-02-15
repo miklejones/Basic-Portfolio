@@ -40,6 +40,14 @@ input[type=text], textarea {
   resize: vertical;
 }
 
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
 aside {
   float: right;
   min-height: 170px;
