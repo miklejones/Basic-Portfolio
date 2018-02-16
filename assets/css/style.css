@@ -146,7 +146,7 @@ hr {
 
 .project-pic {
   width: 250px;
-  border: 1px solid black;
+  border: 1px solid #cccccc;
   z-index: 1;
 }
  .project-title {
